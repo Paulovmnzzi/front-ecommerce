@@ -1,0 +1,109 @@
+.store-container{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.store-navbar{
+    background-color: rgb(52, 53, 49);
+    height: 6%;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    justify-content: space-between;
+
+}
+
+.store-row{
+    height: 94%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+}
+
+.store-item-1{
+    background-color: yellow;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-size: 55px;
+    font-weight: bolder;
+    cursor: pointer;
+
+    &:hover{
+        background-color: darken($color: yellow, $amount: 5);
+        font-size: 75px;
+        color: lighten($color: white, $amount: 30);
+    }
+
+    
+}
+
+.store-item-2{
+    background-color: rgb(138, 17, 17);
+    height: 100%;
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    font-weight: bolder;
+    cursor: pointer;
+
+    &:hover{
+        background-color: darken($color: rgb(138, 17, 17), $amount: 5);
+        font-size: 75px;
+        color: white
+    }
+
+}
+
+.store-item-3{
+    background-color: #1f1cb1;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    font-weight: bolder;
+    cursor: pointer;
+
+    &:hover{
+        background-color: darken($color: #1f1cb1, $amount: 10);
+        font-size: 75px;
+        color: white
+    }
+
+}
+
+.sotre-navbar-left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sotre-navbar-right{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 18px;
+}
+
+.store-link{
+    color: white;
+    text-decoration: none;
+    padding-right: 9px;
+    cursor: pointer;
+}
+
+.store-link:hover{
+    color: darken($color: white, $amount: 40);
+}
+
+.active{
+    color: gray;
+}

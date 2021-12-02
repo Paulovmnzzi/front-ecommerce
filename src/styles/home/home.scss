@@ -1,0 +1,19 @@
+.home-page{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 221);
+}
+
+.img-home{
+    height: 400px;
+}
+
+.welcome-home{
+    padding-top: 50px;
+}

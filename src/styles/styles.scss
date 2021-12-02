@@ -1,0 +1,11 @@
+@import './base/settings';
+@import './base/base';
+
+//auth
+@import './auth/authStyle.scss';
+
+//home
+@import './home/home.scss';
+
+//store
+@import './store/store.scss'
