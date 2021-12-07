@@ -8,4 +8,9 @@
 @import './home/home.scss';
 
 //store
-@import './store/store.scss'
+@import './store/store.scss';
+
+//search
+@import './search/search.scss';
+@import 'search/card.scss';
+@import 'search/cardview.scss';

@@ -1,0 +1,69 @@
+.card-body{
+    border: 3px solid $alternative-grey;
+    background-color: lighten($color: $alternative-grey, $amount: 10);
+    width: 420px;
+    height: 250px;
+    border-radius: 25px;
+    // padding: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 40px;
+    box-shadow: 8px 8px 8px darken($color: $alternative-grey, $amount: 30);
+}
+
+.card-row{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.card-image{
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 3px;
+    margin-left: 15px;
+}
+
+.card-image-image{
+    height: 220px;
+    width: 120px;
+}
+
+.card-text{
+    margin-top: 7px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.card-text-title{
+    margin-bottom: 6px;
+}
+
+.card-text-add{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.card-text-add-plus{
+    height: 40px;
+    width: 40px;
+    border: 2px;
+    border-radius: 100px;
+    background-color: darken($color: $alternative-grey, $amount: 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.card-text-add-plus-x{
+    padding-bottom: 7px;
+}
+
+.card-text-add-plus-mas{
+    font-size: 9px;
+}

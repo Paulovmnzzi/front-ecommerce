@@ -13,15 +13,15 @@ const Store = () => {
         switch (key) {
             case 'Libros':
                 dispatch(addCategorie('Libros'));
-                history.push('/search');
+                history.push('/search/libros');
                 break;
             case 'epicos':
                 dispatch(addCategorie('epico'));
-                history.push('/search');
+                history.push('/search/epico');
                 break;
             case 'computacion':
                 dispatch(addCategorie('computación'));
-                history.push('/search');
+                history.push('/search/computacion');
                 break;
             default:
                 break;
