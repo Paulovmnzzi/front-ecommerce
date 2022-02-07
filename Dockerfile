@@ -1,5 +1,11 @@
-from node:17-alpine
-run npm install
-copy . . 
-expose 5000 
-CMD [ "npm" , "start"
+from node:14
+
+WORKDIR /app
+
+COPY . /app
+
+RUN npm install
+
+# EXPOSE 3000 
+
+CMD [ "yarn" , "start" ]

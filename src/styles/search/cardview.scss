@@ -13,3 +13,28 @@
     padding-left: 50px;
     padding-top: 30px;
 }
+
+.card-view-info{
+    // margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-view-button{
+    border-radius: 10px;
+    background-color: $primary;
+    font-weight: bold;
+    height: 50px;
+    font-size: 25px;
+    letter-spacing: 16px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: darken($color: $primary, $amount: 15);
+        font-size: 30px;
+        color: black;
+        letter-spacing: 24px;
+    }
+
+}
